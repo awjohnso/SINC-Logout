@@ -1,11 +1,11 @@
 # SINC-Logout
- Logout scripts for the Computer Labs (SINC Sites)
+## Logout scripts for the Computer Labs (SINC Sites)
 
-Author: Andrew W. Johnson
-Date: 2022.01.05.
-Version: 2.00
-Organization: Stony Brook University/DoIT
-
+- Author: Andrew W. Johnson
+- 2022.01.05
+- Version: 2.00
+- Organization: Stony Brook University/DoIT
+---
 In order to get a script to run on logout on macOS we have to run it as a user LaunchAgent. The script runs and goes to sleep until it detects one of the following: SIGINT, SIGHUP, SIGTERM, SIGQUIT, SIGABRT.
 
 Our old Apple SE suggested this approach, beyond that I don't know who developed the original idea.
